@@ -1,0 +1,63 @@
+/*
+    Document   : style.css
+    Created on : 2015-09-19 03:08 PM
+    Author     : adiwal
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+ root {
+    display: block;
+}
+.nav a {
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+.nav li {
+    display: inline;
+}
+.jumbotron {
+    background-image:url("http://www.bestfreejpg.com/wp-content/uploads/2014/08/education_desktop_wallpaper.jpg");
+    background-repeat:no-repeat;
+    height: 550px;
+    background-size: cover;
+}
+.jumbotron .container {
+    position: relative;
+    top:100px;
+}
+.jumbotron h1 {
+    color: #fff;
+    font-size: 48px;
+    font-family:'Shift', sans-serif;
+    font-weight: bold;
+}
+.jumbotron p {
+    font-size: 30px;
+    color: #fff;
+    font-family:'Shift', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color:#ffee88;
+    text-decoration: none;
+}
+
+.round img {
+    display: block;
+    /* Stretch
+                  height: 100%;
+                  width: 100%; */
+    min-width: 100%;
+    min-height: 100%;
+}.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
